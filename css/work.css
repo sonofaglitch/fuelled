@@ -1,4 +1,3 @@
-
 html{
     font-size: 1em;
 }
@@ -28,9 +27,18 @@ h1 {
 
 h2 {font-size: 4.236em;}
 
-h3 {font-size: 2.618em;}
+h3 {
+    font-family: 'Muli', sans-serif;
+    font-size: 2.618em;
+}
 
-h4 {font-size: 1.618em;}
+
+h4 {
+    font-family: 'Muli', sans-serif;
+    font-size: 1.618em;
+    border-top: 1px #999999 solid;
+    padding-top: 0.5em;
+}
 
 
 small, .font_small {font-size: 0.618em;}
@@ -42,11 +50,6 @@ small, .font_small {font-size: 0.618em;}
     padding-right: 8%;
     padding-top: 0%;
 }    
-
-
-h1{
-    font-size: 2.4em;
-}
 
 
 .headerContainer{
@@ -85,6 +88,17 @@ h1{
 }
 
 
+
+.nav li{
+    font-family: 'Futura PT', sans-serif;
+    text-align: center;
+    font-size: 1.10em;
+    width: 25%;
+    text-align: center;
+    float: left; 
+    padding-top: 2%;
+}
+
 .nav li a{
     background-color: white;
     color: #333;
@@ -105,24 +119,72 @@ h1{
 }
 
 
-.currentWork li{
-    font-family: 'Futura PT', sans-serif;
+#headerImageWrapper{
+    overflow: hidden;
+}
+
+#backgroundImage{
+    height: auto;
+    width: 100%;
+}
+
+#pageTitleRow{
+    padding-top: 2%;
+    padding-left: 1.85%;
+}
+
+#pageTitleRow h3{
+        margin-bottom: 2%;;
+}
+
+.workItem{
+    padding-bottom: 1.5em;
+}
+
+.workItem img{
+    height: auto;
+    width: 100%;
+    padding-top: 8%;
+    padding-left: 4%
+}
+
+#prevWork1_textContainer{
+    padding-top: 0.5%;
+    padding-right: 2%;
+}
+
+
+
+
+#prevWork2_textContainer{
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+
+#prevWork2_imgContainer{
+    
+}
+
+#prevWork2_imgContainer img{
+    padding-left: 0;
+    padding-right: 4%;
+}
+
+
+#prevWork3_textContainer{
+    padding-top: 9%;
+    padding-right: 2%;
+}
+
+
+
+p{
+    font-family: 'Playfair Display', serif;
     text-align: left;
-    font-size: 1.10em;
-    width: 100%;
-    float: left; 
-}
+    font-size: 1em;
+    padding-bottom: 8%;
+    letter-spacing: 0.6px;
+    line-height: 1.75em;
 
-li{
-    font-family: 'Futura PT', sans-serif;
-    text-align: center;
-    font-size: 1.10em;
-    width: 25%;
-    text-align: center;
-    float: left; 
-}
-
-#currentWorkImg{
-    width: 100%;
-    height: 100%;
 }
