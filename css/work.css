@@ -36,7 +36,6 @@ h3 {
 h4 {
     font-family: 'Muli', sans-serif;
     font-size: 1.618em;
-    border-top: 1px #999999 solid;
     padding-top: 0.5em;
 }
 
@@ -129,12 +128,16 @@ small, .font_small {font-size: 0.618em;}
 }
 
 #pageTitleRow{
-    padding-top: 2%;
-    padding-left: 1.85%;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    text-align: center;
+    
 }
 
 #pageTitleRow h3{
-        margin-bottom: 2%;;
+    margin-bottom: 2%;
+    border-bottom: 1px #999999 solid;
+    padding: 0.5em;
 }
 
 .workItem{
@@ -145,8 +148,27 @@ small, .font_small {font-size: 0.618em;}
     height: auto;
     width: 100%;
     padding-top: 8%;
-    padding-left: 4%
+    padding-left: 4%;
 }
+
+.workItem h4{
+    border-top: 1px #999999 solid;
+}
+
+
+.leftCol{
+    padding-right: 0;
+}
+
+
+.rightCol{
+    padding-left: 0;
+}
+
+#prevWork01_imgContainer{
+    
+}
+
 
 #prevWork1_textContainer{
     padding-top: 0.5%;
@@ -154,7 +176,16 @@ small, .font_small {font-size: 0.618em;}
 }
 
 
+#prevWork1_textContainer h4{
+    padding-left: 8%;
+    padding-top: 4%;
+}
 
+
+#prevWork1_textContainer p{
+    padding-left: 8%;
+    padding-top: 2%;
+}
 
 #prevWork2_textContainer{
     padding-top: 2%;
