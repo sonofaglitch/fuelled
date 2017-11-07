@@ -74,7 +74,8 @@ h1{
 
 
 .navbar-header{
-    padding-top: 6.5%;
+    padding-top: 5%;
+    padding-bottom: 2%;
 }
 
 
@@ -99,7 +100,7 @@ h1{
 
 .nav li a:hover{
     background-color: white;
-    color: mediumseagreen;
+    color: seagreen;
     width: 100%;
 }
 
